@@ -68,6 +68,6 @@
 	default = simple
 [merge]
 	log = true
-#[credential]
-    #helper = store --file ~/.git-credentials
-    #helper = cache --timeout 86400
+[credential]
+    helper = store --file ~/.git-credentials
+    helper = cache --timeout 86400
