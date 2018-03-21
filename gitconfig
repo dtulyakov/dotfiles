@@ -65,7 +65,7 @@
     autocrlf = input
     editor = vim
 [push]
-    default = simple
+    default = current
 [merge]
     log = true
 [credential]
