@@ -71,3 +71,7 @@
 [credential]
     helper = store --file ~/.git-credentials
     helper = cache --timeout 86400
+[commit]
+    gpgsign = true
+#[http]
+#    proxy = http://proxy.sample.org:8118
